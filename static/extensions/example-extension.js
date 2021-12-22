@@ -25,12 +25,11 @@ ExampleExtension.prototype.getInfo = function () {
         // Optional: URI for an icon for this extension. Data URI OK.
         // If not present, use a generic icon.
         // TODO: what file types are OK? All web images? Just PNG?
-        iconURI: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAAAAACyOJm3AAAAFklEQVQYV2P4DwMMEMgAI/+DE' +
-            'UIMBgAEWB7i7uidhAAAAABJRU5ErkJggg==',
+        iconURI: 'https://cdn.discordapp.com/attachments/919329164803309630/922816234368667648/discord.png',
 
         // Optional: Link to documentation content for this extension.
         // If not present, offer no link.
-        docsURI: 'https://....',
+        docsURI: 'https://studios.worldwildmc.fr',
 
         // Required: the list of blocks implemented by this extension,
         // in the order intended for display.
